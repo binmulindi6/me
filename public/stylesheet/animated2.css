@@ -1,0 +1,181 @@
+@keyframes cube {
+    from {
+        transform: scale(0) rotate(0deg) translate(-50%, -50%);
+        opacity: 1;
+    }
+    to {
+        transform: scale(20) rotate(960deg) translate(-50%, -50%);
+        opacity: 0;
+    }
+}
+
+.background-2 li{
+    display: none;
+    position: relative;
+    width: 100vw;
+    height: 50vh;
+    margin: 0;
+    padding: 0;
+    background: #ec1a1a;
+    overflow: hidden;
+}
+.background-2 li {
+    position: absolute;
+    top: 80vh;
+    left: 45vw;
+    width: 10px;
+    height: 10px;
+    border: solid 1px #e5e5e5;
+    color: transparent;
+    transform-origin: top left;
+    transform: scale(0) rotate(0deg) translate(-50%, -50%);
+    animation: cube 16s ease-in forwards infinite;
+}
+undefined
+.background-2 li:nth-child(0) {
+    animation-delay: 0s;
+    left: 87vw;
+    top: 23vh;
+    border-color: #ffffff;
+}
+
+.background-2 li:nth-child(1) {
+    animation-delay: 2s;
+    left: 85vw;
+    top: 77vh;
+}
+
+.background-2 li:nth-child(2) {
+    animation-delay: 4s;
+    left: 27vw;
+    top: 31vh;
+}
+
+.background-2 li:nth-child(3) {
+    animation-delay: 6s;
+    left: 35vw;
+    top: 40vh;
+    border-color: #ffffff;
+}
+
+.background-2 li:nth-child(4) {
+    animation-delay: 8s;
+    left: 62vw;
+    top: 45vh;
+    border-color: #ffffff;
+}
+
+.background-2 li:nth-child(5) {
+    animation-delay: 10s;
+    left: 9vw;
+    top: 71vh;
+}
+
+.background-2 li:nth-child(6) {
+    animation-delay: 12s;
+    left: 66vw;
+    top: 98vh;
+    border-color: #ffffff;
+}
+
+.background-2 li:nth-child(7) {
+    animation-delay: 14s;
+    left: 53vw;
+    top: 91vh;
+}
+
+.background-2 li:nth-child(8) {
+    animation-delay: 16s;
+    left: 71vw;
+    top: 35vh;
+    border-color: #ffffff;
+}
+
+.background-2 li:nth-child(9) {
+    animation-delay: 18s;
+    left: 17vw;
+    top: 82vh;
+    border-color: #ffffff;
+}
+
+.background-2 li:nth-child(10) {
+    animation-delay: 20s;
+    left: 2vw;
+    top: 10vh;
+    border-color: #ffffff;
+}
+
+.background-2 li:nth-child(11) {
+    animation-delay: 22s;
+    left: 40vw;
+    top: 53vh;
+    border-color: #ffffff;
+}
+
+.background-2 li:nth-child(12) {
+    animation-delay: 24s;
+    left: 23vw;
+    top: 16vh;
+    border-color: #ffffff;
+}
+
+.background-2 li:nth-child(13) {
+    animation-delay: 26s;
+    left: 7vw;
+    top: 1vh;
+    border-color: #ffffff;
+}
+
+.background-2 li:nth-child(14) {
+    animation-delay: 28s;
+    left: 55vw;
+    top: 8vh;
+    border-color: #ffffff;
+}
+
+.background-2 li:nth-child(15) {
+    animation-delay: 30s;
+    left: 47vw;
+    top: 72vh;
+    border-color: #ffffff;
+}
+
+.background-2 li:nth-child(16) {
+    animation-delay: 32s;
+    left: 94vw;
+    top: 61vh;
+    border-color: #ffffff;
+}
+
+.background-2 li:nth-child(17) {
+    animation-delay: 34s;
+    left: 97vw;
+    top: 90vh;
+}
+
+.background-2 li:nth-child(18) {
+    animation-delay: 36s;
+    left: 39vw;
+    top: 68vh;
+    border-color: #ffffff;
+}
+
+.background-2 li:nth-child(19) {
+    animation-delay: 38s;
+    left: 77vw;
+    top: 43vh;
+    border-color: #ffffff;
+}
+
+.background-2 li:nth-child(20) {
+    animation-delay: 40s;
+    left: 79vw;
+    top: 18vh;
+    border-color: #ffffff;
+}
+
+.background-2 li:nth-child(21) {
+    animation-delay: 42s;
+    left: 22vw;
+    top: 57vh;
+}

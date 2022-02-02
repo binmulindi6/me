@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="assets/css/T19-styles.css">
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons"rel="stylesheet">
+
+	<title>Teddy Ruta</title>
+</head>
+<body>
+	<a href="#home" class="scroll-btn" id="scroll-btn">
+        <span class="material-icons outlined">
+            arrow_upward
+        </span>
+    </a>
+	<section class="header" id="header">
+
+		<div class="menu-button" onclick="Hide()">
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+
+		<div class="nav">
+			<a href="#home" class="menu">
+				<span class="material-icons">
+					home
+				</span>
+				<span class="menu-title">
+					Home
+				</span>
+			</a>
+			<a href="#about-me" class="menu">
+				<span class="material-icons">
+					engineering
+				</span>
+				<span class="menu-title">
+					About Me
+				</span>
+			</a>
+			<a href="#work" class="menu">
+				<span class="material-icons">
+					apartment
+				</span>
+				<span class="menu-title">
+					Last Works
+				</span>
+			</a>
+			<a href="#contact" class="menu">
+				<span class="material-icons">
+					email
+				</span>
+				<span class="menu-title">
+					Contacts
+				</span>
+			</a>
+		</div>
+
+		<div class="nav-bar" id="nav-bar">
+			<a href="#home" class="menu" onclick="Hide()">
+				<span class="material-icons">
+					home
+				</span>
+				<span class="menu-title">
+					Home
+				</span>
+			</a>
+			<a href="#about-me" class="menu" onclick="Hide()">
+				<span class="material-icons">
+					engineering
+				</span>
+				<span class="menu-title">
+					About Me
+				</span>
+			</a>
+			<a href="#work" class="menu" onclick="Hide()">
+				<span class="material-icons">
+					apartment
+				</span>
+				<span class="menu-title">
+					Last Works
+				</span>
+			</a>
+			<a href="#contact" class="menu" onclick="Hide()">
+				<span class="material-icons">
+					email
+				</span>
+				<span class="menu-title">
+					Contacts
+				</span>
+			</a>
+		</div>
+
+	</section>
+
+	<section class="main">
+		<section class="home" id="home">
+			<div class="overlay"></div>
+			<div class="container home-text">
+				<b class="main-title">Hi, i'm Teddy</b>
+				<h2>Civil Engineer</h2>
+				<a href="#home">
+					<div class="btn btn-start"> Book Now </div>
+				</a>
+			</div>
+		</section>
+		<section class="about-me" id="about-me">
+			<div class="container">
+				<div class="profil">
+					<img class="avatar-img" src="https://i.pinimg.com/originals/b9/8f/2e/b98f2e152160ecb57759b6169913a263.jpg">
+				</div>
+				<div class="details">
+					<b>I'm Teddy Ruta</b>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam iste ex esse ipsa, vero quo quas alias voluptatem exercitationem quod tempore necessitatibus ratione quam a! Illum exercitationem ad assumenda nemo.
+					Exercitationem repudiandae deserunt fuga praesentium, facere consequatur, omnis nisi ex quos nihil id possimus! Tenetur quia adipisci voluptatum ipsum, accusamus nobis repudiandae voluptatem modi, id, quod ratione natus quo! Ipsum.</p>
+					<b>Skills :</b>
+						<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci nam quidem eius nisi cupiditate saepe voluptas animi pariatur veniam totam beatae explicabo, eveniet officiis delectus neque blanditiis, a molestias fugit. </p>
+					<div class="skills-app">
+						<img src="https://logodix.com/logo/1995867.png" alt="Lumion">
+						<img src="https://cdn.shopify.com/s/files/1/0226/7535/7773/products/Archicad_24_square_f55b106c-8f1f-41e7-bf30-c30b1f327685_1200x1200.png?v=1607312415" alt="Archicad">
+						<img src="https://logowik.com/content/uploads/images/twinmotion8708.jpg" alt="Twinmotion">
+						<img src="https://assets-us-01.kc-usercontent.com/1ca05609-4ad1-009e-bc40-2e1230b16a75/e0d8ca1a-bb20-4966-b86d-2680d1b78dbb/Robot%20Structural%20Analysis%20Professional%20color.png?w=400&h=300&fit=clip" alt="Robot">
+					</div>
+				</div>
+			</div>
+		</section>
+		
+		<section class="work" id="work">
+			<div class="container">
+				<h2 class="title"> Lastest Work : </h2>
+				<div class="display">
+					<img src="assets/img/item.jpg" alt="">
+					<img src="assets/img/item.jpg" alt="">
+					<img src="assets/img/item.jpg" alt="">
+					<img src="assets/img/item.jpg" alt="">
+					<img src="assets/img/item.jpg" alt="">
+					<img src="assets/img/item.jpg" alt="">
+					<img src="assets/img/item.jpg" alt="">
+					<img src="assets/img/item.jpg" alt="">
+				</div>
+			</div>
+		</section>
+
+		<section class="footer" id="contact">
+			<div class="container">
+				<h2 class="title"> Contacts : </h2>
+				<div class="social-icons">
+					<a href="#contact" class="icon-container"> <img class="icon" src="assets/svg/gmail.svg"> </a>
+					<a href="#contact" class="icon-container"> <img class="icon" src="assets/svg/fb.svg"> </a>
+					<a href="#contact" class="icon-container"> <img class="icon" src="assets/svg/insta.svg"> </a>
+					<a href="#contact" class="icon-container"> <img class="icon" src="assets/svg/twitter.svg"> </a>
+				</div>
+			</div>
+		</section>
+	</section>
+	
+	<script>
+
+        function Hide(){
+            let x = '0px';
+            let y = '-280px';
+            menu();
+            function menu() {
+                if(document.getElementById('nav-bar').style.top == x){
+                    document.getElementById('nav-bar').style.top = y;
+                }else{
+                    document.getElementById('nav-bar').style.top = x;
+                }
+            }
+
+        }
+
+        
+
+        window.onscroll = function() {myFunction()};
+
+        function myFunction() {
+            if (document.body.scrollTop > 500 || document.documentElement.scrollTop > 500) {
+                document.getElementById('scroll-btn').style.display = "block";
+            } else {
+                document.getElementById('scroll-btn').style.display = "none";
+            }
+        }
+
+    </script>
+
+</body>
+</html>
