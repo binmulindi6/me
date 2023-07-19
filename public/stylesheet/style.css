@@ -1,4 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Urbanist:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import './animated2.css';
+@import './fa.min.css';
+@import './shape.css';
+
+
 *{
   font-family: 'Urbanist', sans-serif;
 }
@@ -15,6 +20,10 @@ html,body{
 body{
     max-width: 1920px;
     margin: auto;
+}
+
+a{
+    color:#000;
 }
 
 section{
@@ -47,6 +56,8 @@ section{
 .scroll-btn{
     position: fixed;
     display: none;
+    justify-content: center;
+    align-items: center;
     bottom: 5%;
     right: 5%;
     width: 30px;
@@ -99,6 +110,7 @@ section{
     background-color: auto;
     padding: 0 0 10px 0;
     width: 100%;
+    max-width: 1920px;
     height: 50px;
     z-index: 1;
     /*background-color: #123;*/
@@ -187,7 +199,10 @@ section{
 }
 .background li {
     position: absolute;
-    display: block;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     list-style: none;
     width: 20px;
     height: 20px;
@@ -195,8 +210,9 @@ section{
     animation: animate 19s linear infinite;
 }
 
-
-
+.flotting-icons{
+    font-size: 5rem;
+}
 
 .background li:nth-child(0) {
     left: 26%;
@@ -268,7 +284,15 @@ section{
     bottom: -117px;
     animation-delay: 17s;
 }
-/*joker*/ 
+/*joker*/
+
+/* #home{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+} */
+
 .home h2{
     margin: 10px;
 }
@@ -277,24 +301,27 @@ section{
     font-size: 1.2em;
 }
 .home{
-    /*background-image: url(/public/img/bg.jpg);
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;*/
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap:2rem;
+    align-items: center;
     position: relative;
     min-height: 100%;
     height: auto;
-    width: 100%;
+    /* width: 100%; */
+    /* padding: 0 0 0 5%; */
     
 }
 
 .home-text{
-    width: 70%;
-    margin: auto;
-    padding: 20px;
-    position: relative;
-    top: 200px;
-    margin: auto;
+    width: 50%;
+    /* margin: auto; */
+    /* padding: 20px; */
+    /* position: relative; */
+    /* top: 200px; */
+    /* margin: auto; */
+    /* margin-left: 5%; */
     text-align: center;
     color: #ffffff;
 }
@@ -325,14 +352,23 @@ section{
     height: 100%;
   }
 
+  .contact-home-container{
+    width: 300px;
+    /* height: 100%; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
 .contacts-home{
-    position: absolute ;
+    /* position: absolute ;
     top: 30%;
-    left: 5%;
+    left: 5%; */
     background: #fff;
     width: 60px;
-    height: 250px;
+    /* height: 250px; */
     display: grid;
+    padding: 5px 0 5px 0;
    border-radius: 30px;
 }
 
@@ -374,7 +410,7 @@ section{
     left: 60px;
     height: 10px;
     width: 10px;
-    border-radius: 50%;
+    /* border-radius: 50%; */
     background-color: rgb(245, 3, 3);
 }
 
@@ -394,13 +430,14 @@ section{
         width: 96%;
         display: flex;
         position: fixed;
+        text-align: center;
         left: 2%;
-        top: -127px;
+        top: -147px;
         margin: 20px 0 0 0;
         flex-direction: column;
         gap: 0;
         color: #fff;
-        background-color: #000000a3;
+        background-color: #0000005f;
         border-radius: 5px;
         transition: 0.5s;
         z-index: 0;
@@ -411,6 +448,7 @@ section{
     .menu{
         margin: 0;
         padding-left: 20px;
+        /* text-align: center; */
     }
 
     .menu:first-child{
@@ -430,28 +468,44 @@ section{
     .menu:hover{
         background-color: #ffffffe7;
         color: #000;
+        border-radius: 10px;
+    }
+    .men{
+        background-color: #ffffffe7;
+        color: #000;
+        border-radius: 10px;
     }
     .home h2{
         margin-bottom: 20px;
     }
     .title{
         font-size: 2em;
+        width: 100%;
     }
     .site-name{
         font-size: 1.3em;
     }
+    .home{
+        flex-direction: column;
+    }
     .home-text{
         top: auto;
-        padding-top: 20%;
+        /* padding-top: 20%; */
     }
     .contacts-home{
         position: relative;
         top: auto;
         height: auto;
         left: auto;
-        width: 250px;
-        padding: 5px 0 0 0;
+        /* width: auto; */
+        width: 100%;
+        padding: 5px 0 5px 0;
         margin: auto;
+    }
+
+
+    .animated-shape{
+        /* display: none; */
     }
     
     .home-social-icons{
@@ -468,7 +522,7 @@ section{
         height: 40px;
         width:  40px;
         padding: 0.3rem;
-        border-radius: 50%;
+        /* border-radius: 50%; */
      }
     
      .icon-home img{
@@ -493,7 +547,7 @@ section{
 @media screen and (max-width: 600px) {
     .home-text{
         top: auto;
-        padding-top: 100px;
+        /* padding-top: 100px; */
     }
 }
 
@@ -538,7 +592,7 @@ section{
     width: 260px;
     padding: 20px;
     text-align: center;
-    background: rgba( 255, 255, 255, 0.25 );
+    background: rgba(106, 106, 106, 0.25);
     box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
     backdrop-filter: blur( 4px );
     -webkit-backdrop-filter: blur( 4px );
@@ -565,23 +619,45 @@ section{
     
 }
 
+.item-descript{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.item-descrit-more{
+    width:100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.stack{
+    font-size: 1.5rem;
+}
+
 .item1 .item-img:hover{
     animation: bgChange 5s infinite;
 }
 .item1 .item-img{
-    background-image: url("../img/item1.png");
+    background-image: url("../img/mykstore1.png");
 }
 
 .item2 .item-img{
-    background-image: url("../img/item2.png");
+    background-image: url("../img/cesko.png");
+}
+
+.item3 .item-img{
+    background-image: url("../img/sas/sas2.png");
 }
 @keyframes bgChange {
     50%{
-        background-image: url("../img/item1-2.png");
+        background-image: url("../img/mykstore2.png");
     }
 
     100%{
-        background-image: url("../img/item1-3.png");
+        background-image: url("../img/mykstore3.png");
     }
 
 }
@@ -611,6 +687,10 @@ section{
 }
 
  @media screen and (max-width: 600px) {
+
+    .title{
+        font-size: 1.5rem;
+    }
 
     .item-title{
         font-size: 1.2em;
@@ -694,7 +774,7 @@ section{
     height: 50px;
     width: 50px;
     padding: 0.3rem;
-    border-radius: 50%;
+    /* border-radius: 50%; */
     background-color: #ffffff;
  }
 

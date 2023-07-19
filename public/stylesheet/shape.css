@@ -1,0 +1,30 @@
+.wrapper{
+    text-align:center;
+  }
+  
+  svg{
+    margin: 0 auto;
+    width: 100%;
+    height:auto;
+  }
+
+  .avatar-container{
+    width: 350px;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('/public/svg/shape.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+  
+  .avatar{
+    width: 200px;
+    /* position: relative; */
+    left: 0%;
+    margin-top: auto;
+    margin-bottom: auto;
+    border-radius: 50%;
+  }
