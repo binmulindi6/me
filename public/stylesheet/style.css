@@ -745,7 +745,7 @@ section{
     /*background-color: #141516;*/
     min-height: 100vh;
     height: auto;
-    background-image: url(../svg/Wave.svg);
+    background-image: url("../svg/Wave.svg");
     background-position: bottom;
     background-repeat: no-repeat;
     display: flex;
